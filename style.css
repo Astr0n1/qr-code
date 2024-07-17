@@ -30,8 +30,6 @@ section {
   background-color: #d5e1ef;
   width: var(--container-width);
   height: var(--container-height);
-  max-width: 85vw;
-  max-height: 85vh;
   margin: calc(50vh - var(--container-height) / 2) calc(50vw - var(--container-width) / 2);
 }
 
