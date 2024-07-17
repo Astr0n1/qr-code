@@ -1,11 +1,7 @@
 :root {
-  --container-width:1400px;
-  --container-height:933px;
-  --ticket-width:310px;
-  --ticket-height:480px;
   --img-size:280px;
   --font-1:20px;
-  --font-2:16px;
+  --font-2:17px;
 }
 * {
   box-sizing: border-box;
@@ -16,20 +12,14 @@
 body {
   background-color: #EEE;
 }
-.box{
+
+section {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-}
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #d5e1ef;
-  width: var(--container-width);
-  height: var(--container-height);
   margin: calc(50vh - var(--container-height) / 2) calc(50vw - var(--container-width) / 2);
 }
 
@@ -41,18 +31,16 @@ section {
   background-color: #fff;
   padding: 15px;
   border-radius: 15px;
-  width: var(--ticket-width);
-  height: var(--ticket-height);
 }
 img {
-  width: var(--img-size);
+  width: 280px;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
 article {
-  width: var(--img-width);
-  padding-inline: 5px;
+  max-width: 270px;
+  margin-bottom: 25px;
 }
 article h1 {
   font-weight: bolder;
@@ -61,6 +49,7 @@ article h1 {
 }
 
 article p {
+  padding-inline: 5px;
   font-size: var(--font-2);
   color: #666;
 }
